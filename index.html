@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <!--=============== UNICONS ===============-->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+   <!--=============== CSS ================-->
+   <link rel="stylesheet" href="css/style.css" />
+
+   <title>Code Craft</title>
+  </head>
+  <body>
+   <!--=============== HEADER =============== -->
+   <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" 
+        class="nav__logo">Chidi<span>ebube</span></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav__link">About</a></li>
+
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+            <li><a href="#contact" class="nav__link">Contact</a></li>           
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="www.twitter.com" target="_blank" 
+          class="nav__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+  
+  
+          <a href="www.instagram.com" target="_blank" 
+          class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+  
+  
+          <a href="www.linkedin.com" target="_blank" 
+          class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+   </header>
+
+   <!--=============== MAIN ===============-->
+  <main class="main">
+     <!--=============== HOME ===============-->
+     <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Welcome To My World</span>
+          <h1 class="home__title">Hi, I'm CHidiebube. I'm a 
+            <span>Web Developer.</span></h1>
+        </div>
+
+        <img src="css/assets/images.jpeg" alt="" class="home__img">
+      </div>
+     </section>
+     
+     <!--=============== ABOUT ===============-->
+     <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="css/assets/pexels-markusspiske-177598.jpg" alt="" class="about__img">
+
+        <div class="about__content">
+          <h2 class="section__title">About Me</h2>
+
+          <p class="about__description">Hi &#44; I'm Chidiebube &#44; a web developer driven by a desire 
+            to create stunning digital experiences &#46; With 2 years of 
+            experience &#44; I've helped businesses and individuals bring 
+            their brands to life online &#46;
+            Today &#44; I'm a professional developer with a portfolio that
+            showcases my ability to craft compelling visual narratives &#46;
+          </p>
+        </div>
+      </div>
+     </section>
+
+     <!--=============== PORTFOLIO ===============-->
+     <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">
+        My Latest Project
+      </h2>
+      <p class="section__description"> This portfolio is a reflection of
+        my journey, showcasing the projects that have helped me grow and learn.
+      </p>
+
+      <div class="portfolio__container grid">
+        <div class="portfolio__item">
+          <img src="css/assets/Screenshot (12).png" 
+          alt="" 
+          class="portfolio__img"/>
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Development</p>
+            <h3 class="portfolio__title">YouTube Clone</h3>
+            <p class="portfolio__description">Recreating a web homepage of YouTube</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="css/assets/Screenshot (16).png" 
+          alt="" 
+          class="portfolio__img"/>
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Development</p>
+            <h3 class="portfolio__title">Webpage Clone</h3>
+            <p class="portfolio__description">Recreating a webpage</p>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!--=============== CONTACT ===============-->
+     <section class="contact section" id="contact">
+      <div class="contact__container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Hire Me</h2>
+
+          <p class="contact__description">
+            I am available for freelance work. Connect with me via Email:
+            <a href="mailto:obasichidiebube03@gmail.com">obasichidiebube03@gmail.com</a>
+          </p>
+
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input 
+               type="text"
+               name="name" 
+               placeholder="Your Name *"
+               class="contact__input"
+               id="contact-name"
+              >
+            </div>
+
+            <div class="contact__form-input">
+              <input 
+               type="email"
+               name="email" 
+               placeholder="Your e-mail"
+               class="contact__input"
+               id="contact-email"
+              >
+            </div>
+
+            <div class="contact__form-input">
+              <input  
+               type="text"
+               name="subject" 
+               placeholder="Write a Subject"
+               class="contact__input"
+               id="contact-subject"
+              >
+            </div>
+
+            <div class="contact__form-input">
+              <textarea 
+               name="message" 
+               id="contact-message" 
+               class="contact__input textarea" 
+               placeholder="Your Message"
+               ></textarea>
+            </div>
+
+            <input type="submit" value="Submit" class="btn">
+
+            <p class="error__message" id="error-message"></p>
+          </form>
+        </div>
+      </div>
+     </section>
+   </main>
+   <!--=============== FOOTER ===============-->
+   <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">Chidi<span>ebube</span></a>
+
+      <div class="footer__socials">
+        <a href="www.twitter.com" target="_blank" 
+        class="footer__socials-link">
+          <i class="uil uil-twitter"></i>
+        </a>
+
+
+        <a href="www.instagram.com" target="_blank" 
+        class="footer__socials-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+
+
+        <a href="www.linkedin.com" target="_blank" 
+        class="footer__socials-link">
+          <i class="uil uil-linkedin"></i>
+        </a>
+      </div>
+
+      <p class="footer__copyright">
+        &copy; 2024. All rights reserved.
+      </p>
+    </div>
+   </footer>
+
+   <!--=============== SCROLL UP ===============-->
+   <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-up scrollup__icon"></i>
+   </a>
+
+   <!--=============== EMAIL JS ===============-->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+   ></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="js/main.js"></script>
+ </body>
+</html>
